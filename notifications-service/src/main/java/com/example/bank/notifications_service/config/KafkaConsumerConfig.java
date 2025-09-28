@@ -1,5 +1,6 @@
 package com.example.bank.notifications_service.config;
 
+import com.example.bank.notifications_service.events.AccountCreatedEvent;
 import com.example.bank.notifications_service.events.PaymentInitiatedEvent;
 import com.example.bank.notifications_service.events.PaymentSettledEvent;
 import org.apache.kafka.clients.consumer.ConsumerConfig;

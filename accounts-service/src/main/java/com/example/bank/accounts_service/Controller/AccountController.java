@@ -1,8 +1,8 @@
 package com.example.bank.accounts_service.Controller;
 
+import com.example.bank.accounts_service.DTOs.AccountCreatedEvent;
 import com.example.bank.accounts_service.Model.Account;
 import com.example.bank.accounts_service.Repository.AccountRepository;
-import com.example.bank.accounts_service.events.AccountCreatedEvent;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.*;
